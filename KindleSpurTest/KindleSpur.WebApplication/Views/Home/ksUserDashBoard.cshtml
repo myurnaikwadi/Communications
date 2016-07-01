@@ -1,0 +1,81 @@
+﻿<div class="parentBody" ng-controller="ksCommunicationController">
+    <div class="homeLabelInChat">
+        <h5 class="fontClass">NOTIFICATIONS</h5>
+    </div>
+
+    <div class="communicationMainPanel">
+        <div class="conversationPanel">
+            <div class="conversationPanelDiv">
+                <div class="conversationList " ng-click="conversationLoad($index,conversation)" ng-repeat="conversation in conversationList">
+                    <div class="conversationListPanel genericPointerClass" ng-class="{ highlightedGrayClass : conversation.selectedConversation == true }">
+                        <div style="float:left;    margin: auto auto;width: 85%;">
+                            <h5 style="margin:auto auto;margin-left: 0;font-size: large;float: left;width: 88%;    font-weight: 700;    font-size: 15px;">{{conversation.name}}</h5>
+                            <div class="applicationNotiCount" title="5" style=" display flex;float:left;text-align: center;height 15px;width 15px;">
+                                <h6 class="fontClass" style=" font-size 10px;display inline-block;text-align center; text-overflow clip; margin auto auto;color:white;">5</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div ng-show="conversation.selectedConversation == true" class="triangleArrowRight trangleOveRideBlack" style="float: left;margin-top: 15px;"></div>
+                </div>
+            </div>
+        </div>
+        <div class="communicationPanel">
+            <div class="chatParent">
+                <div class="chatHeader">
+                    <div class="chatStrongHeader">
+                        <div class="chatHalfContainer">
+                            <span class="chatHalfContainerSpan">
+                                <h5>Paresh Patil</h5>
+                            </span>
+                            <span class="chatHalfContainerSpanNxt">
+                                <h6 class="genericPointerClass">Close Session</h6>
+                                <h6 class="genericPointerClass" ng-click="askFeedBackFunc()">Ask Feedback</h6>
+                            </span>
+                        </div>
+                        <div class="chatHalfContainer">
+                            <span class="chatHalfContainerSpanNxt" style="align-items: center;">
+                                <h6 style="padding: 0px;">UI-UX Designer | PUNE AREA | INDIA</h6>
+                            </span>
+                        </div>
+                    </div>
+
+
+                </div>
+                <div class="chatMiddle">
+                    <div class="chatOuterContainer">
+                        <div class="chatSender">
+                            <h5>I would like to request couching from you.</h5>
+                        </div>
+                        <div class="chatTime">
+                            <h5>02/20</h5>
+                        </div>
+                    </div>
+                    <div class="chatOuterContainer">
+                        <div class="chatReceiver">
+                            <h5>Couching Request from Paresh has been accepted</h5>
+                        </div>
+                        <div class="chatTime">
+                            <h5 style="text-align : right">02/20</h5>
+                        </div>
+                    </div>
+                </div>
+                <div class="chatBottom">
+                    <div class="chatBottomOne">
+                        <textarea placeholder="CLICK HERE TO TYPE MESSAGE"></textarea>
+                    </div>
+                    <div class="chatBottomTwo">
+                        <div class="iconContainer">
+                            <div class="fa fa-paperclip" style="padding: 0px 8px;"></div>
+                            <div class="fa fa-phone" style="padding: 0px 8px;"></div>
+                        </div>
+                        <div class="iconContainer" style="justify-content: center;">
+                            <button type="submit">Submit</button>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

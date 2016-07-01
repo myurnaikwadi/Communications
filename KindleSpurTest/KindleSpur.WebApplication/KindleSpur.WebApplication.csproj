@@ -261,10 +261,10 @@
     <Content Include="Scripts\angular.js" />
     <Content Include="Scripts\Angular\App\app.js" />
     <Content Include="Scripts\Angular\App\stateController.js" />
+    <Content Include="Scripts\Angular\Controller\Home\ksCommunicationController.js" />
     <Content Include="Scripts\Angular\Services\ksGenericDirective.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <Content Include="Scripts\css\ksDashBoardMentorController.js" />
     <Content Include="Scripts\Angular\Controller\Login\ksLoginController.js" />
     <Content Include="Scripts\Angular\Library Files\angular-animate.js" />
     <Content Include="Scripts\Angular\Library Files\angular-animate.min.js" />
@@ -325,10 +325,6 @@
     <Content Include="fonts\fontawesome-webfont.eot" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\css\ksDashBoard\ksDashBoard.css" />
-    <Content Include="Scripts\css\ksDashBoard\ksDashBoardCoach.css" />
-    <Content Include="Scripts\css\ksDashBoard\ksDashBoardCoachee.css" />
-    <Content Include="Scripts\css\ksDashBoard\ksDashBoardMentee.css" />
-    <Content Include="Scripts\css\ksDashBoard\ksDashBoardMentor.css" />
     <Content Include="Scripts\css\ksLogin\ksLogin.css" />
     <Content Include="Scripts\css\global.css" />
     <Content Include="Scripts\css\ksLogin\ksSavePassoword.css" />
@@ -1077,6 +1073,9 @@
     <Content Include="Scripts\i18n\angular-locale_zu-za.js" />
     <Content Include="Scripts\i18n\angular-locale_zu.js" />
     <Content Include="Scripts\angular-ui-router.js" />
+    <Content Include="Scripts\jquery-1.10.2.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.js" />
+    <Content Include="Scripts\jquery-1.10.2.min.map" />
     <None Include="Scripts\jquery-2.2.3.intellisense.js" />
     <Content Include="Scripts\jquery-2.2.3.js" />
     <Content Include="Scripts\jquery-2.2.3.min.js" />
@@ -1105,11 +1104,13 @@
     <Content Include="Views\User\Error.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\User\PasswordPromp.cshtml" />
+    <Content Include="Views\_ViewStart.cshtml" />
+    <Content Include="Views\Shared\_Layout.cshtml" />
+    <Content Include="Views\Home\ksUserDashBoard.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
-    <Folder Include="Scripts\Angular\Controller\Home\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
