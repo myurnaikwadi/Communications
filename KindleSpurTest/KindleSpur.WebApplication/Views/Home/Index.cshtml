@@ -1,0 +1,46 @@
+﻿<!DOCTYPE html>
+<html>
+<title>Live Wire Projects</title>
+<head>
+    <base href="/">
+    <script src="~/Scripts/Angular/Library Files/angular.js"></script>
+    <script src="~/Scripts/Angular/Library Files/angular-ui-router.js"></script>
+    <script src="~/Scripts/jquery-2.2.3.js"></script>
+    <script src="~/Scripts/bootstrap.js"></script>
+    <script type="text/javascript" src="http://platform.linkedin.com/in.js">
+	//here goes the api key, and the callback function
+	    api_key: mk7d07jliqob
+	    onLoad: onLinkedInLoad
+	    authorize: true
+        scope: r_emailaddress
+    </script>
+    <script src="~/Scripts/Angular/App/app.js"></script>
+    <script src="~/Scripts/Angular/App/stateController.js"></script>
+
+    <link href="~/Scripts/css/global.css" rel="stylesheet" />
+
+
+    <link href="~/Content/bootstrap.css" rel="stylesheet" />
+    <link href="~/Content/font-awesome.css" rel="stylesheet" />
+    <link href="~/Scripts/css/ksLogin/ksLogin.css" rel="stylesheet" />
+    <link href="~/Scripts/css/ksLogin/ksSavePassoword.css" rel="stylesheet" />
+    <link href="~/Scripts/css/ksDashBoard/ksDashBoard.css" rel="stylesheet" />
+    <link href="~/Scripts/css/ksDashBoard/ksDashBoardCoach.css" rel="stylesheet" />
+    <link href="~/Scripts/css/ksDashBoard/ksDashBoardCoachee.css" rel="stylesheet" />
+    <link href="~/Scripts/css/ksDashBoard/ksDashBoardMentee.css" rel="stylesheet" />
+    <link href="~/Scripts/css/ksDashBoard/ksDashBoardMentor.css" rel="stylesheet" />
+
+
+    <script src="~/Scripts/Angular/Services/ksService.js"></script>
+    <script src="~/Scripts/Angular/Services/ksGenericDirective.js"></script>
+    <script src="~/Scripts/Angular/Controller/Login/ksLoginController.js"></script>
+    <script src="~/Scripts/Angular/Controller/Home/ksDashBoardController.js"></script>
+    <script src="~/Scripts/Angular/Controller/Home/ksDashBoardCoachController.js"></script>
+    <script src="~/Scripts/Angular/Controller/Home/ksDashBoardCoacheeController.js"></script>
+    <script src="~/Scripts/Angular/Controller/Home/ksDashBoardMenteeController.js"></script>
+    <script src="~/Scripts/Angular/Controller/Home/ksDashBoardMentorController.js"></script>
+</head>
+<body ng-app='app'>
+    <div ui-view></div>
+</body>
+</html>

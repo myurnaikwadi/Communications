@@ -1,0 +1,498 @@
+﻿        .fullWidthHeightClass {
+            position: relative;
+            width: 100%;
+            height: 100%;
+        }
+
+        .applicationBottomStrip {
+            position: relative;
+            width: 100%;
+            height: 7%;
+            float: left;
+        }
+
+      
+
+        .parentRoleMenu {
+            position: relative;
+            width: 18%;
+            padding: 1%;
+            height: 98%;
+            float: left;
+        }
+
+        .parentRoleDetailRight {
+            position: relative;
+            width: 80%;
+            height: 100%;
+            float: left;
+        }
+
+        .profileViewMode {
+            position: relative;
+            width: 100%;
+            height: 15%;
+            float: left;
+        }
+
+        .profileImagePart {
+            position: relative;
+            float: left;
+            height: 46%;
+            width: 17%;
+            margin: 7%;
+            border: 1px solid gray;
+        }
+
+        .profileNamePart {
+            position: relative;
+            float: left;
+            color: white;
+            margin: 10%;
+            margin-right: 0;
+            margin-left: 0;
+        }
+
+        .leftSideMenuMainDashBoard {
+            position: relative;
+            float: left;
+            height: 85%;
+            width: 100%;
+        }
+
+        .leftSideMenuParent {
+            position: relative;
+            float: left;
+            height: 100%;
+            width: 100%;
+        }
+
+        .leftSideMenu {
+            position: relative;
+            float: left;
+            width: 100%;
+            height: 6%;
+            border-bottom: 1px solid;
+        }
+
+        .leftSideMenuLable {
+            position: relative;
+            float: left;
+            color: white;
+            margin: 3%;
+        }
+
+        .requestRoleParent {
+            position: relative;
+            float: left;
+            height: 10%;
+            width: 100%;
+        }
+
+        .dashBoardWizard {
+            position: relative;
+            float: left;
+            height: 85%;
+            width: 100%;
+        }
+
+        .mainDashBoardWizardParent {
+            position: relative;
+            float: left;
+            height: 86%;
+            width: 100%;
+        }
+        .roleRepeatWizard {
+            position: relative;
+            float: left;
+            width: 47%;
+            height: 35%;
+            margin: 2%;
+            margin-right: 0;
+            margin-bottom: 0;
+            border: 1px solid;
+        }
+
+        .homeLabelInMainDB {
+            position: relative;
+            float: left;
+            width: 100%;
+            height: 7%;
+        }
+
+            .homeLabelInMainDB h5 {
+                float: left;
+                position: relative;
+                margin-left: 2%;
+                margin-top: 2%;
+                font-size: 16px;
+            }
+
+        
+        .userRoleWizardParent {
+            float: left;
+            width: 100%;
+            height: 100%;
+        }
+
+        .roleRepeatWizard {
+            position: relative;
+            float: left;
+            width: 45%;
+            height: 42%;
+            margin: 2%;
+            border: 1px solid lightgray;
+        }
+
+        .bottomStripOption {
+            position: relative;
+            float: left;
+            width: 81%;
+            margin-left: 19%;
+            margin-top: 1%;
+        }
+
+            .bottomStripOption li {
+                position: relative;
+                float: left;
+                font-size: 10px;
+                opacity: 0.4;
+                margin: 5px;
+            }
+
+        .notificationWizard {
+            margin: 0% auto;
+            display: table;
+        }
+
+        .notificationWizButton {
+            float: left;
+            width: 34%;
+        }
+
+
+        .roleWiseClass {
+            float: left;
+            width: 70%;
+            padding: 7%;
+        }
+
+        .homeIcon {
+            float: left;
+            width: 20%;
+            border: 1px solid red;
+        }
+
+        .notificationIcon {
+            float: left;
+            width: 20%;
+            border: 1px solid red;
+        }
+
+        .roleRequestIcon {
+            float: left;
+            width: 20%;
+            border: 1px solid red;
+        }
+
+        .addRoleIcon {
+            float: left;
+            width: 20%;
+            border: 1px solid red;
+        }
+
+        .whiteBackground {
+            color: white;
+        }
+
+        .dashBoardMenuCoach {
+            float: left;
+            width: 92%;
+            height: 95%;
+            margin-left: 8%;
+            margin-top: 3%;
+        }
+
+        .dashBoardMenuCoachRight {
+            float: left;
+            width: 30%;
+            height: 45%;
+            margin: 1%;
+        }
+
+        .dashBoardMenuCoachRightCircle {
+            float: left;
+            width: 100%;
+            height: 80%;
+            display: flex;
+        }
+
+        .dashBoardMenuCoachRightCirclePart {
+            float: left;
+            width: 55%;
+            height: 85%;
+            margin: auto auto;
+            border: 7px solid lightgray;
+            border-radius: 100%;
+        }
+
+        .dashBoardMenuCoachRightlabel {
+            float: left;
+            width: 100%;
+            display: flex;
+            height: 20%;
+        }
+
+        .applicationLogo {
+            float: left;
+            width: 15%;
+            height: 100%;
+        }
+
+        .applicationSearch {
+            float: left;
+            width: 20%;
+            display: flex;
+            height: 100%;
+        }
+
+        .applicationRightCornerStrip {
+            float: right;
+            width: 25%;
+            height: 100%;
+        }
+
+        .applicationSearchTag {
+            border: 1px solid lightgray;
+            border-radius: 10px;
+            float: left;
+            margin: auto;
+            width: 84%;
+            padding: 5px;
+        }
+
+        .roleIcons {
+            float: right;
+            width: 32%;
+            display: flex;
+            height: 100%;
+        }
+
+        .notificationDiv {
+            float: right;
+            width: 45%;
+            display: flex;
+            height: 100%;
+        }
+
+        .notificationDivParent {
+            float: left;
+            width: 100%;
+            display: flex;
+            margin: auto;
+        }
+
+        .applicationNotiCount {
+            height: 19px;
+            width: 19px;
+            border: 1px solid red;
+            border-radius: 50%;
+            -moz-border-radius: 50%;
+            background-repeat: no-repeat;
+            background-size: 100%;
+            background-position: 50%50%;
+            background-color: red;
+        }
+
+            .applicationNotiCount h4 {
+                color: white;
+                display: inline-block;
+                font-size: 10px;
+                font-weight: 500;
+                font-family: Varela Round;
+                line-height: 14px;
+                text-align: center;
+                text-overflow: clip;
+            }
+
+        .logoutOption {
+            float: right;
+            width: 22%;
+            display: flex;
+            color: lightgray;
+            height: 100%;
+        }
+
+        .logoutOptionParent {
+            float: left;
+            margin: auto;
+            width: 100%;
+        }
+
+        .roleIconCircle {
+            float: left;
+            margin: auto 4%;
+            border-radius: 100%;
+        }
+
+.ctsParent{
+	float: left;
+	width: 100%;
+	height : 93%;
+	display:flex;
+}
+.ctsParentMain{
+	float: left;
+	width: 96%;
+	margin: 3% auto auto auto;
+	background : #f1f1f1;
+	height : 93%;
+    display: flex;
+}
+.ctsParentMainPanel{
+	float: left;
+	width: 95%;
+	margin: auto;
+	height : 94%;
+}
+.ctsCategoryHeading{
+	float: left;
+	width: 100%;
+	border-bottom:2px solid lightgray;
+	height : 9%;
+	display:flex;
+}
+.ctsCategoryPanel{
+	float: left;
+	width: 100%;
+	height : 80%;
+	display:flex;
+}
+.ctsCategoryActionPanel{
+	float: left;
+	width: 100%;
+	height : 10%;
+	display:flex;
+}
+.parentCatgoryPanel{
+    position: relative;
+    float: left;
+    height: 100%;
+    width: 100%;
+}
+.cateGoryRepeatPanel{
+    float: left;
+    width: 100%;
+    height: 97%;
+    margin-top: 3%;
+    overflow: auto;
+}
+.categoryCircle{
+    float: left;
+    width: 96%;
+    height: 91%;
+    /* margin: 2%; */
+    /* margin-left: 0; */
+    /* margin-right: 0; */
+    /* margin-bottom: 4%; */
+    display: flex;
+    background: rgba(206, 206, 206, 0.44);
+}
+.categoryRightlabelPart{
+    float: left;
+    width: 30%;
+    display: flex;
+    height: 70%;
+    margin: auto auto;
+    border: 7px solid lightgray;
+    border-radius: 100%;
+}
+
+.categoryRightlabel {
+    float: left;
+    width: 100%;
+    display: flex;
+    height: 20%;
+    margin: auto auto;
+}
+.cateGoryFormDetails{
+    position: relative;
+    width: 100%;
+    float: left;
+    height: 100%;
+    margin: 2%;
+    margin-left: 0;
+    margin-right: 0;
+}
+.cancelLink{
+    float: left;
+    opacity: 0.3;
+    margin-right: 0;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 1%;
+    text-decoration: underline;
+}
+.topicSkillPanel {
+     float: left;
+    width: 100%;
+    height: 100%;
+}
+
+.topicClassParent {
+      float: left;
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid;
+}
+.skillsClassParent {
+      float: left;
+    width: 100%;
+    height: 50%;
+    border-bottom: 1px solid;
+}
+.topicHeadingSection {
+       float: left;
+    width: 23%;
+    height: 100%;
+    display: flex;
+}
+.topicHeadingPlaceholdr {
+    float: left;
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.topicListingSection {
+    float: left;
+    width: 77%;
+    height: 100%;
+    display: flex;
+}
+.topicHeadingBar {
+    float: left;
+    margin: auto auto;
+    font-size: 11px;
+    font-weight: 600;
+}
+.topicListingPanel{
+    float: left;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    display: flex;
+}
+.topicsList {
+    position: relative;
+    float: left;
+    margin: auto auto;
+    border: 1px solid lightgray;
+    width: 88px;
+    height: 25px;
+    display: flex;
+    background : white;
+}
+
+
+  

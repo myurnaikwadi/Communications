@@ -1,0 +1,40 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{5F5CFFC9-AE16-4D85-B1A5-00D39F0CFB69}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DataAccess", "DataAccess", "{AD07B3BF-E2DF-43CF-872C-064F57094BE4}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Bussiness", "Bussiness", "{276ADA52-FBD3-4C94-B20A-41BD5B7897A0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{63FA75A2-4B6E-47FC-A5B6-88A512132DC5}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "KindleSpur.Models", "KindleSpur.Models\KindleSpur.Models.xproj", "{343409F0-4557-44DA-AD3C-8B5CB12EA456}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KindleSpur.WebApplication", "KindleSpur.WebApplication\KindleSpur.WebApplication.csproj", "{32D917FC-7029-41EA-83B4-CEF00AAB4295}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{343409F0-4557-44DA-AD3C-8B5CB12EA456}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{343409F0-4557-44DA-AD3C-8B5CB12EA456}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{343409F0-4557-44DA-AD3C-8B5CB12EA456}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{343409F0-4557-44DA-AD3C-8B5CB12EA456}.Release|Any CPU.Build.0 = Release|Any CPU
+		{32D917FC-7029-41EA-83B4-CEF00AAB4295}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{32D917FC-7029-41EA-83B4-CEF00AAB4295}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{32D917FC-7029-41EA-83B4-CEF00AAB4295}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{32D917FC-7029-41EA-83B4-CEF00AAB4295}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{343409F0-4557-44DA-AD3C-8B5CB12EA456} = {5F5CFFC9-AE16-4D85-B1A5-00D39F0CFB69}
+		{32D917FC-7029-41EA-83B4-CEF00AAB4295} = {63FA75A2-4B6E-47FC-A5B6-88A512132DC5}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,94 @@
+﻿body{
+     margin: 0;
+    float: left;
+    display: inline-block;
+}
+ul,h1,h2,h3,h4,h5,h6{ 
+	list-style-type:none;margin:0;padding:0;font-weight: inherit;box-sizing: border-box;-moz-box-sizing:border-box;
+}
+.genericPointerClass {
+            cursor: pointer;
+        }
+.fontClass {
+	font-family: sans-serif;
+}
+
+ ::-webkit-scrollbar {
+            height: 3px;
+            width: 3px;
+ }
+
+::-webkit-scrollbar-thumb {
+    background-color: #A9A9A9;
+}
+.mentorThemeColor {
+    background-color: rgb(0,73,45) !important;
+}
+
+.mentorBorderColor {
+    border: 7px solid rgb(0,73,45) !important;
+}
+.mentorColor {
+    border-color: rgb(0,73,45) !important;
+}
+.menteeThemeColor {
+    background-color: rgb(132,194,37) !important;
+}
+
+.menteeBorderColor {
+    border: 7px solid rgb(132,194,37) !important;
+}
+.menteeColor {
+    border-color: rgb(132,194,37) !important;
+}
+.coacheeThemeColor {
+    background-color: rgb(248,195,0) !important;
+}
+
+.coacheeBorderColor {
+    border: 7px solid rgb(248,195,0) !important;
+}
+.coacheeColor {
+    border-color: rgb(248,195,0) !important;
+}
+.coachThemeColor {
+    background-color: rgb(231,120,23) !important;
+}
+
+.coachBorderColor {
+    border: 7px solid rgb(231,120,23) !important;
+}
+.coachColor {
+    border-color: rgb(231,120,23) !important;
+}
+
+.triangleArrowUp {
+  width: 0; 
+  height: 0; 
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 5px solid black;
+}
+.triangleArrowDown {
+  width: 0; 
+  height: 0; 
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-top: 20px solid #f00;
+}
+
+.triangleArrowRight {
+  width: 0; 
+  height: 0; 
+  border-top: 60px solid transparent;
+  border-bottom: 60px solid transparent;
+  border-left: 60px solid green;
+}
+
+.triangleArrowLeft {
+  width: 0; 
+  height: 0; 
+  border-top: 10px solid transparent;
+  border-bottom: 10px solid transparent; 
+  border-right:10px solid blue; 
+}
