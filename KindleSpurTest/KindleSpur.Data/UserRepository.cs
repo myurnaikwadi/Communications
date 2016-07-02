@@ -1,13 +1,11 @@
 ﻿using KindleSpur.Models.Interfaces;
 using KindleSpur.Models;
 using KindleSpur.Models.Interfaces.Repository;
-using MongoDB.Driver;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using MongoDB.Driver;
 using MongoDB.Driver.Builders;
 using MongoDB.Bson;
 

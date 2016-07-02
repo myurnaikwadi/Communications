@@ -32,3 +32,22 @@ app.directive('focusMe', function($timeout, $parse) {
     }
   };
 });
+var _getMyDetailsFromCookies = function () {
+    var _user = document.cookie;
+    console.error(_user)
+    var ca = _user.split(';');
+    var _userDetails = null;
+    for (var i = 0; i < ca.length; i++) {
+        var c = ca[i];
+        if (c.indexOf('ksUser') > -1) {
+            _userDetails = c;
+        }
+    }
+    if (_userDetails) {
+        var _de = _userDetails.split('com=');
+        var _userDetails = JSON.parse(_de[1]);
+        console.error(ca)
+    }
+
+    return _userDetails;
+};

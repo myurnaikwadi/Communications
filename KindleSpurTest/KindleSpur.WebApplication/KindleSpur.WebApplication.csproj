@@ -324,7 +324,7 @@
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\fontawesome-webfont.eot" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="Scripts\css\ksDashBoard\ksDashBoard.css" />
+    <Content Include="Scripts\css\ksCommunication\ksCommunication.css" />
     <Content Include="Scripts\css\ksLogin\ksLogin.css" />
     <Content Include="Scripts\css\global.css" />
     <Content Include="Scripts\css\ksLogin\ksSavePassoword.css" />
@@ -1098,19 +1098,16 @@
       <DependentUpon>Web.config</DependentUpon>
     </Content>
     <Content Include="Views\Web.config" />
-    <Content Include="Views\Shared\Error.cshtml" />
-    <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\User\Login.cshtml" />
     <Content Include="Views\User\Error.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\User\PasswordPromp.cshtml" />
-    <Content Include="Views\_ViewStart.cshtml" />
-    <Content Include="Views\Shared\_Layout.cshtml" />
     <Content Include="Views\Home\ksUserDashBoard.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Shared\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

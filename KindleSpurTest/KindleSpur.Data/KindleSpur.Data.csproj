@@ -31,10 +31,16 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="MongoDB.Bson">
-      <HintPath>..\..\..\..\..\Desktop\KindleSpurTestOld\KindleSpurTest20160406\KindleSpur.WebApplication\bin\MongoDB.Bson.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\tedy\tedy\KindleSpurTest\packages\MongoDB.Bson.2.2.4\lib\net45\MongoDB.Bson.dll</HintPath>
     </Reference>
     <Reference Include="MongoDB.Driver">
-      <HintPath>..\..\..\..\..\Desktop\KindleSpurTestOld\KindleSpurTest20160406\KindleSpur.WebApplication\bin\MongoDB.Driver.dll</HintPath>
+      <HintPath>..\..\..\..\..\Desktop\tedy\tedy\KindleSpurTest\packages\MongoDB.Driver.2.2.4\lib\net45\MongoDB.Driver.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Core">
+      <HintPath>..\..\..\..\..\Desktop\tedy\tedy\KindleSpurTest\packages\MongoDB.Driver.Core.2.2.4\lib\net45\MongoDB.Driver.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MongoDB.Driver.Legacy">
+      <HintPath>..\..\..\..\..\Desktop\tedy\tedy\KindleSpurTest\packages\mongocsharpdriver.2.2.4\lib\net45\MongoDB.Driver.Legacy.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Configuration" />
